@@ -1,0 +1,9 @@
+body{
+    background-image: url("assets/imagens/background.jpg");
+    background-attachment: fixed;       
+    }
+            
+    img {border-radius: 5%;}
+    p {text-align: justify;
+    text-rendering: inherit;
+    }     
