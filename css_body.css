@@ -1,5 +1,5 @@
 body{text
-    background-image: url("assets/imagens/download.jpg");
+    background-image: url("./assets/imagens/download.jpg");
     background-attachment: fixed;
     background-size: cover;       
     }
