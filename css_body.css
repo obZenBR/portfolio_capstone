@@ -3,10 +3,12 @@ body{
     background-attachment: fixed;       
     }
             
-    img {border-radius: 50%}
-    p {text-align: justify;
-    text-rendering: inherit;
-    
+    img {
+        border-radius: 50%
+    }
+    p {
+        text-align: justify;
+    text-rendering: inherit;    
     }   
 
     
