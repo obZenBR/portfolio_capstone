@@ -1,7 +1,7 @@
 body{
     background-image: url("./assets/imagens/download.jpg");
     background-attachment: fixed;
-          
+    background-size: cover;      
     }
             
     img {
