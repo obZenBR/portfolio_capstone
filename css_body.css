@@ -1,6 +1,6 @@
 body{
     text-color: silver;
-    background-image: url("./assets/imagens/download.jpg");
+    background-color: rgb(40, 40, 66);
     background-attachment: fixed;
     background-size: cover;      
     }
