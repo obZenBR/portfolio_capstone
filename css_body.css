@@ -1,0 +1,12 @@
+body{
+    background-image: url("assets/imagens/download.jpg");
+    background-attachment: fixed;       
+    }
+            
+    img {
+        border-radius: 50%
+    }
+    p {
+        text-align: justify;
+    text-rendering: inherit;    
+    }   
