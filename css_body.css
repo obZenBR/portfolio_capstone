@@ -6,8 +6,8 @@ body{
     img {border-radius: 50%}
     p {text-align: justify;
     text-rendering: inherit;
-    *{text-align: center;}
+    
     }   
-
+*{text-align: center;}
     
 
