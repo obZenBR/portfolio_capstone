@@ -1,4 +1,4 @@
-body{
+body{text
     background-image: url("assets/imagens/download.jpg");
     background-attachment: fixed;
     background-size: cover;       
@@ -11,3 +11,5 @@ body{
         text-align: justify;
     text-rendering: inherit;    
     }   
+
+*{color: white;}
