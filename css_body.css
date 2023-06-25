@@ -3,7 +3,11 @@ body{
     background-attachment: fixed;
     background-size: cover;      
     }
-            
+
+.letra {
+    font-family: belanosima
+}
+    
 img {
     border-radius: 50%
     }
