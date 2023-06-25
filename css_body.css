@@ -1,18 +1,22 @@
-body{
-    text-color: silver;
+body{        
     background-color: rgb(25,31,91);
     background-attachment: fixed;
     background-size: cover;      
     }
             
-    img {
-        border-radius: 50%
+img {
+    border-radius: 50%
     }
-    p {
-        text-align: justify;
+    
+p { 
+    text-align: justify;    
     text-rendering: inherit;    
     }   
 
-.silver{
-color: silver;
+.silver {
+    color: silver;    
+}
+
+#centro {
+    text-align: center;
 }
