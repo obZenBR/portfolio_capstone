@@ -11,6 +11,7 @@ body{
 img {
     border-radius: 50%;
     border: 5px solid silver;
+    border-color: rgb(30,190,252)
     }
     
 p { 
