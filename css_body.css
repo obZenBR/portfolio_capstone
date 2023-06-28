@@ -3,15 +3,11 @@ body{
     background-attachment: fixed;
     background-size: cover;      
     }
-
-.letra {
-    font-family: 'Dosis', sans-serif;
-}
-    
+            
 img {
     border-radius: 50%;
-    border: 5px solid silver;
-    border-color: rgb(30,190,252)
+    border: 5px solid;
+    border-color: rgb(30,190,252);
     }
     
 p { 
@@ -26,3 +22,37 @@ p {
 #centro {
     text-align: center;
 }
+
+
+h1 {    
+    color: rgb(25,31,91);    
+    font-family: electrolize;
+    font-size: 40px;
+    background-color: rgb(30,190,252);
+    margin: 0%  
+    
+}
+
+footer {
+    color: rgb(25,31,91);    
+    font-family: electrolize;
+    font-weight: bolder;    
+    background-color: rgb(30,190,252); 
+}
+
+h2 {    
+    font-family: electrolize;
+    
+}
+
+h3 {
+    font-family: electrolize;
+}
+
+p { margin: 2%;
+    font-family: electrolize;;
+}
+
+a:link {
+    font-family: electrolize;
+    color: rgb(30,190,252);
