@@ -1,40 +1,34 @@
 body{        
     background-color: rgb(25,31,91);
     background-attachment: fixed;
-    background-size: cover;      
-    }
+    background-size: cover;
+    color: silver;
+    text-align: center;
+    text-rendering: inherit;
+    font-family: electrolize;
+}
+
+h1 {    
+    color: rgb(25,31,91);    
+    font-size: 40px;
+    background-color: rgb(30,190,252);
+    margin: 0%
+    }   
             
 .img {
     border-radius: 50%;
     border: 5px solid;
     border-color: rgb(30,190,252);
-    }
-    
-p { 
-    text-align: justify;    
-    text-rendering: inherit;
-    margin: 0%;    
-    }   
-
-.silver {
-    color: silver;    
 }
-
-#centro {
-    text-align: center;
-     
-}
-
-
-h1 {    
-    color: rgb(25,31,91);    
-    font-family: electrolize;
-    font-size: 40px;
-    background-color: rgb(30,190,252);
-    margin: 0%
     
-    
-       
+.logo {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: rgb(34,32,33);    
+    border-radius: 20px;
+    border: 5px groove;
+    border-color: rgb(30,190,252);   
 }
 
 footer {
@@ -43,42 +37,21 @@ footer {
     font-weight: bolder;    
     background-color: rgb(30,190,252); 
 }
-
-h2 {    
-    font-family: electrolize;
-    
-}
-
-h3 {
-    font-family: electrolize;
-}
-
-p { margin: 2%;
-    font-family: electrolize;
+p { 
+    margin: 2%;    
     font-size: 18px;
 }
 
 a:link {
-    font-family: electrolize;
-    color: rgb(30,190,252);
-    
+    color: rgb(30,190,252);    
 }
 
 a:visited {
-    color: rgb(30,190,252);
+color: rgb(30,190,252);
 }
 
-.logo  {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    padding: 15px;
-    background-color: rgb(34,32,33);    
-    border-radius: 20px;
-    border: 10px groove;
-    border-color: rgb(30,190,252);   
-}
-
-
-.logo  {
+div {
+    font-weight: bold;
+    font-size: 20px;
     margin-top: 10px;
 }
