@@ -21,7 +21,7 @@ h1 {
     border-color: rgb(30,190,252);
 }
     
-.logo {
+.logo { 
     margin-top: 15px;
     margin-bottom: 0px;
     padding: 10px;
@@ -37,8 +37,8 @@ footer {
     font-weight: bolder;    
     background-color: rgb(30,190,252); 
 }
-p { 
-    margin: 2%;    
+
+p {     
     font-size: 18px;
 }
 
@@ -50,8 +50,59 @@ a:visited {
 color: rgb(30,190,252);
 }
 
-div {
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 10px;
+
+.python {    
+    position: relative;    
+    left: 40px;    
+    width: 200px;    
+    padding: 5px;
+    margin-top: 20px;   
+    font-size: 1.2rem;
+    
+}
+
+.sql {    
+    position: relative;
+    left: 260px; 
+    bottom: 193px;   
+    width: 200px;    
+    padding: 5px;
+    margin-top: 40px;    
+    font-size: 1.2rem;
+    
+
+}
+
+.cyber {    
+    position: relative;
+    left: 480px;
+    bottom: 386px;
+    width: 200px;    
+    padding: 5px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    
+            
+}
+
+.full{    
+    position: relative;
+    left: 700px;
+    bottom: 579px;
+    width: 200px;  
+    padding: 5px;
+    margin-top: 40px;
+    font-size: 1.2rem; 
+    
+}
+
+#tech {
+    position: relative;
+    font-size: 1.3em;
+    font-weight: bolder;      
+    margin-left: 140px;   
+    width: 1000px;
+    height: 250px;    
+    background-attachment: inherit;
+
 }
