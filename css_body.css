@@ -8,101 +8,157 @@ body{
     font-family: electrolize;
 }
 
-h1 {    
-    color: rgb(25,31,91);    
-    font-size: 40px;
-    background-color: rgb(30,190,252);
-    margin: 0%
-    }   
-            
-.img {
-    border-radius: 50%;
+a {
+}
+
+footer {    
+    background-color: #147fa8;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.lista {
+    position: relative;     
+    width: 900px;
+}
+
+ul {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.container {position: relative;    
+}
+
+.container > img {
+    margin-top: 40px;
+    width: 250px;
+    border-radius: 50%;    
     border: 5px solid;
-    border-color: rgb(30,190,252);
+    border-color: #147fa8;
 }
+
+.div0 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row; /*Os elementos flexíveis irão se alinhar da direita para a esquerda*/
+    align-items: safe center; /* A função safe garante que o conteúdo não seja deslocado de forma que ele seja renderizado fora da tela e a função unsafe é o oposto, sendo assim o conteúdo ficará intacto e não interferirá em outros conteúdos. */
+    justify-content: center; 
+    gap: 60px;
+    flex-wrap: wrap; /*O conteúdo irá se agrupar de cima para baixo de acordo com a largura de sua page */
+}
+
+.divx {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;    
+}
+
+.div2 { 
+    background-color: #147fa8;
+    margin-top: 20px;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+.div3 { 
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.div4 {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.trabalho {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.trabalho2 {
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+.div6 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.div7 {   
+    margin-top: 20px;
+   
     
-.logo { 
-    margin-top: 15px;
-    margin-bottom: 0px;
+}
+
+.div77 {
+    margin-top: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div8 {
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.python { 
+    order: 1;
+}
+
+.python > img {
     padding: 10px;
-    background-color: rgb(34,32,33);    
-    border-radius: 20px;
-    border: 5px groove;
-    border-color: rgb(30,190,252);   
+    border: outset rgb(30,190,252) 5px;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;;
 }
 
-footer {
-    color: rgb(25,31,91);    
-    font-family: electrolize;
-    font-weight: bolder;    
-    background-color: rgb(30,190,252); 
+.sql {
+    order: 2;
 }
 
-p {     
-    font-size: 18px;
+.sql > img {
+    padding: 10px;
+    border: outset rgb(30,190,252) 5px;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
 }
 
-a:link {
-    color: rgb(30,190,252);    
+.cyber {
+    order: 3;
 }
 
-a:visited {
-color: rgb(30,190,252);
+.cyber > img {
+    padding: 10px;
+    border: outset rgb(30,190,252) 5px;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
 }
 
-
-.python {    
-    position: relative;    
-    left: 40px;    
-    width: 200px;    
-    padding: 5px;
-    margin-top: 20px;   
-    font-size: 1.2rem;
-    
+.front {
+    order: 0;
 }
 
-.sql {    
-    position: relative;
-    left: 260px; 
-    bottom: 193px;   
-    width: 200px;    
-    padding: 5px;
-    margin-top: 40px;    
-    font-size: 1.2rem;
-    
-
-}
-
-.cyber {    
-    position: relative;
-    left: 480px;
-    bottom: 386px;
-    width: 200px;    
-    padding: 5px;
-    margin-top: 40px;
-    font-size: 1.2rem;
-    
-            
-}
-
-.full{    
-    position: relative;
-    left: 700px;
-    bottom: 579px;
-    width: 200px;  
-    padding: 5px;
-    margin-top: 40px;
-    font-size: 1.2rem; 
-    
-}
-
-#tech {
-    position: relative;
-    font-size: 1.3em;
-    font-weight: bolder;      
-    margin-left: 140px;   
-    width: 1000px;
-    height: 250px;    
-    background-attachment: inherit;
-
+.front > img {
+    padding: 10px;
+    border: outset rgb(30,190,252) 5px;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
 }
